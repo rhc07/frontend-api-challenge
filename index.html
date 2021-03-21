@@ -9,11 +9,40 @@
   </head>
   <body>
     <h1>Chitter</h1>
+    
+  <button id="create-account">Create An Account</button>  
+  <div id ="sign-up">
+    <!-- <form id="sign-up">
+      <br>Sign Up:<br>
+      <input id="first-name" type="text" placeholder="First Name"></input><br>
+      <input id="last-name" type="text" placeholder="Last Name"></input><br>
+      <input id="user-handle" type="text" placeholder="User Name"></input><br>
+      <input id="email-address" type="text" placeholder="Email"></input><br>
+      <input id="password" type="text" placeholder="password"></input><br>
+      <br><input id="submit-account-details" type="submit" value="Submit"></input><br>
+    </form> -->
+  </div>
+
+  <div>
+    <form id="log-in-input">
+     <br>Log In:<br>
+      <input id="email-address" type="text" placeholder="Email"></input>
+      <input id="password" type="text" placeholder="password"></input>
+    </form>
+  </div>  
+
+    <h2>What's on your mind?</h2>
     <form id="chitter-input">
-      <textarea id="note-content" cols="50" rows="5"></textarea>
+      <textarea id="peep-input" cols="50" rows="5"></textarea>
       <button id="post-peep">Peep</button>
     </form>
-    <div id="list-of-peeps">
+
+
+
+    <div id="posted-peep">
+      <!-- recent post goes here -->
+    </div>
+    <div id="peeps-feed">
         <!-- content will go here -->
     </div>
 
